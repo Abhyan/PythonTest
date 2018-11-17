@@ -1,2 +1,6 @@
-print("{0} is your name".format(input("What is you name? ")))
-print("{0} is you favourite animal".format(input("What is your favourite animal? ")))
+favAnimal = input("What is your favourite animal? ")
+
+if (favAnimal.upper() == "DOG" or favAnimal.upper() == "DOGS"):
+    print("So is mine!")
+else:
+    print("{0} is good too".format(favAnimal))
